@@ -50,7 +50,7 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
-
+Because the js file is called before the loaded, we must add a DOMContentLoaded event listener in the js file or add a defer to the HTML file.
 ```
 
 ## Deliverable 2
@@ -72,7 +72,7 @@ Using the `player` object, update the DOM to show the player's *name*, *nickname
 
 **YOUR NOTES**
 ```
-
+Using querySelector, we can pass a reference to each of the specific nodes that we need and set each one to a different variable. Next, we use that variable and change the inner text to the information we have in our object.
 ```
 
 ## Deliverable 4
